@@ -4,7 +4,7 @@ from .CorrectRec import isCorrectRect
 def isCollisionRect(rectangles):
     try:
         ValueError(rectangles)
-    except RectCorrectError as e:
+    except ValueError as e:
         print(e)
         return False
         
