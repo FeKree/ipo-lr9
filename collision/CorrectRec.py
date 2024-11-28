@@ -1,6 +1,3 @@
-class RectCorrectError(Exception):
-    pass
-
 def isCorrectRect(rectangles):
     counter = 0
     
